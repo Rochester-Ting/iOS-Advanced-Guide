@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAEA48741D34A01D0009DA4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA48731D34A01D0009DA4E /* main.m */; };
+		CAEA48771D34A01D0009DA4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA48761D34A01D0009DA4E /* AppDelegate.m */; };
+		CAEA487A1D34A01D0009DA4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA48791D34A01D0009DA4E /* ViewController.m */; };
+		CAEA487D1D34A01D0009DA4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEA487B1D34A01D0009DA4E /* Main.storyboard */; };
+		CAEA487F1D34A01D0009DA4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEA487E1D34A01D0009DA4E /* Assets.xcassets */; };
+		CAEA48821D34A01D0009DA4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEA48801D34A01D0009DA4E /* LaunchScreen.storyboard */; };
+		CAEA488D1D34A01D0009DA4E /* Intrinsic_Content_Size________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA488C1D34A01D0009DA4E /* Intrinsic_Content_Size________Tests.m */; };
+		CAEA48981D34A01D0009DA4E /* Intrinsic_Content_Size________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA48971D34A01D0009DA4E /* Intrinsic_Content_Size________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAEA48891D34A01D0009DA4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEA48671D34A01C0009DA4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEA486E1D34A01C0009DA4E;
+			remoteInfo = "Intrinsic Content Size(固有内容大小)";
+		};
+		CAEA48941D34A01D0009DA4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEA48671D34A01C0009DA4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEA486E1D34A01C0009DA4E;
+			remoteInfo = "Intrinsic Content Size(固有内容大小)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAEA486F1D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intrinsic Content Size(固有内容大小).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEA48731D34A01D0009DA4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAEA48751D34A01D0009DA4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAEA48761D34A01D0009DA4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAEA48781D34A01D0009DA4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAEA48791D34A01D0009DA4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAEA487C1D34A01D0009DA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAEA487E1D34A01D0009DA4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAEA48811D34A01D0009DA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAEA48831D34A01D0009DA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEA48881D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intrinsic Content Size(固有内容大小)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEA488C1D34A01D0009DA4E /* Intrinsic_Content_Size________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Intrinsic_Content_Size________Tests.m"; sourceTree = "<group>"; };
+		CAEA488E1D34A01D0009DA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEA48931D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intrinsic Content Size(固有内容大小)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEA48971D34A01D0009DA4E /* Intrinsic_Content_Size________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Intrinsic_Content_Size________UITests.m"; sourceTree = "<group>"; };
+		CAEA48991D34A01D0009DA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAEA486C1D34A01C0009DA4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA48851D34A01D0009DA4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA48901D34A01D0009DA4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAEA48661D34A01C0009DA4E = {
+			isa = PBXGroup;
+			children = (
+				CAEA48711D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小) */,
+				CAEA488B1D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小)Tests */,
+				CAEA48961D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小)UITests */,
+				CAEA48701D34A01D0009DA4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAEA48701D34A01D0009DA4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA486F1D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小).app */,
+				CAEA48881D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小)Tests.xctest */,
+				CAEA48931D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAEA48711D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小) */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA48751D34A01D0009DA4E /* AppDelegate.h */,
+				CAEA48761D34A01D0009DA4E /* AppDelegate.m */,
+				CAEA48781D34A01D0009DA4E /* ViewController.h */,
+				CAEA48791D34A01D0009DA4E /* ViewController.m */,
+				CAEA487B1D34A01D0009DA4E /* Main.storyboard */,
+				CAEA487E1D34A01D0009DA4E /* Assets.xcassets */,
+				CAEA48801D34A01D0009DA4E /* LaunchScreen.storyboard */,
+				CAEA48831D34A01D0009DA4E /* Info.plist */,
+				CAEA48721D34A01D0009DA4E /* Supporting Files */,
+			);
+			path = "Intrinsic Content Size(固有内容大小)";
+			sourceTree = "<group>";
+		};
+		CAEA48721D34A01D0009DA4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA48731D34A01D0009DA4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAEA488B1D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA488C1D34A01D0009DA4E /* Intrinsic_Content_Size________Tests.m */,
+				CAEA488E1D34A01D0009DA4E /* Info.plist */,
+			);
+			path = "Intrinsic Content Size(固有内容大小)Tests";
+			sourceTree = "<group>";
+		};
+		CAEA48961D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA48971D34A01D0009DA4E /* Intrinsic_Content_Size________UITests.m */,
+				CAEA48991D34A01D0009DA4E /* Info.plist */,
+			);
+			path = "Intrinsic Content Size(固有内容大小)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAEA486E1D34A01C0009DA4E /* Intrinsic Content Size(固有内容大小) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEA489C1D34A01D0009DA4E /* Build configuration list for PBXNativeTarget "Intrinsic Content Size(固有内容大小)" */;
+			buildPhases = (
+				CAEA486B1D34A01C0009DA4E /* Sources */,
+				CAEA486C1D34A01C0009DA4E /* Frameworks */,
+				CAEA486D1D34A01C0009DA4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intrinsic Content Size(固有内容大小)";
+			productName = "Intrinsic Content Size(固有内容大小)";
+			productReference = CAEA486F1D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小).app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAEA48871D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEA489F1D34A01D0009DA4E /* Build configuration list for PBXNativeTarget "Intrinsic Content Size(固有内容大小)Tests" */;
+			buildPhases = (
+				CAEA48841D34A01D0009DA4E /* Sources */,
+				CAEA48851D34A01D0009DA4E /* Frameworks */,
+				CAEA48861D34A01D0009DA4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEA488A1D34A01D0009DA4E /* PBXTargetDependency */,
+			);
+			name = "Intrinsic Content Size(固有内容大小)Tests";
+			productName = "Intrinsic Content Size(固有内容大小)Tests";
+			productReference = CAEA48881D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAEA48921D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEA48A21D34A01D0009DA4E /* Build configuration list for PBXNativeTarget "Intrinsic Content Size(固有内容大小)UITests" */;
+			buildPhases = (
+				CAEA488F1D34A01D0009DA4E /* Sources */,
+				CAEA48901D34A01D0009DA4E /* Frameworks */,
+				CAEA48911D34A01D0009DA4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEA48951D34A01D0009DA4E /* PBXTargetDependency */,
+			);
+			name = "Intrinsic Content Size(固有内容大小)UITests";
+			productName = "Intrinsic Content Size(固有内容大小)UITests";
+			productReference = CAEA48931D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAEA48671D34A01C0009DA4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rochester;
+				TargetAttributes = {
+					CAEA486E1D34A01C0009DA4E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CAEA48871D34A01D0009DA4E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CAEA486E1D34A01C0009DA4E;
+					};
+					CAEA48921D34A01D0009DA4E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CAEA486E1D34A01C0009DA4E;
+					};
+				};
+			};
+			buildConfigurationList = CAEA486A1D34A01C0009DA4E /* Build configuration list for PBXProject "Intrinsic Content Size(固有内容大小)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAEA48661D34A01C0009DA4E;
+			productRefGroup = CAEA48701D34A01D0009DA4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAEA486E1D34A01C0009DA4E /* Intrinsic Content Size(固有内容大小) */,
+				CAEA48871D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小)Tests */,
+				CAEA48921D34A01D0009DA4E /* Intrinsic Content Size(固有内容大小)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAEA486D1D34A01C0009DA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEA48821D34A01D0009DA4E /* LaunchScreen.storyboard in Resources */,
+				CAEA487F1D34A01D0009DA4E /* Assets.xcassets in Resources */,
+				CAEA487D1D34A01D0009DA4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA48861D34A01D0009DA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA48911D34A01D0009DA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAEA486B1D34A01C0009DA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEA487A1D34A01D0009DA4E /* ViewController.m in Sources */,
+				CAEA48771D34A01D0009DA4E /* AppDelegate.m in Sources */,
+				CAEA48741D34A01D0009DA4E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA48841D34A01D0009DA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEA488D1D34A01D0009DA4E /* Intrinsic_Content_Size________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA488F1D34A01D0009DA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEA48981D34A01D0009DA4E /* Intrinsic_Content_Size________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAEA488A1D34A01D0009DA4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEA486E1D34A01C0009DA4E /* Intrinsic Content Size(固有内容大小) */;
+			targetProxy = CAEA48891D34A01D0009DA4E /* PBXContainerItemProxy */;
+		};
+		CAEA48951D34A01D0009DA4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEA486E1D34A01C0009DA4E /* Intrinsic Content Size(固有内容大小) */;
+			targetProxy = CAEA48941D34A01D0009DA4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAEA487B1D34A01D0009DA4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEA487C1D34A01D0009DA4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAEA48801D34A01D0009DA4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEA48811D34A01D0009DA4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAEA489A1D34A01D0009DA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAEA489B1D34A01D0009DA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAEA489D1D34A01D0009DA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Intrinsic Content Size(固有内容大小)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.Intrinsic-Content-Size--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAEA489E1D34A01D0009DA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Intrinsic Content Size(固有内容大小)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.Intrinsic-Content-Size--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAEA48A01D34A01D0009DA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Intrinsic Content Size(固有内容大小)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.Intrinsic-Content-Size--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intrinsic Content Size(固有内容大小).app/Intrinsic Content Size(固有内容大小)";
+			};
+			name = Debug;
+		};
+		CAEA48A11D34A01D0009DA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Intrinsic Content Size(固有内容大小)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.Intrinsic-Content-Size--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intrinsic Content Size(固有内容大小).app/Intrinsic Content Size(固有内容大小)";
+			};
+			name = Release;
+		};
+		CAEA48A31D34A01D0009DA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Intrinsic Content Size(固有内容大小)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.Intrinsic-Content-Size--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Intrinsic Content Size(固有内容大小)";
+			};
+			name = Debug;
+		};
+		CAEA48A41D34A01D0009DA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Intrinsic Content Size(固有内容大小)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.Intrinsic-Content-Size--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Intrinsic Content Size(固有内容大小)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAEA486A1D34A01C0009DA4E /* Build configuration list for PBXProject "Intrinsic Content Size(固有内容大小)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEA489A1D34A01D0009DA4E /* Debug */,
+				CAEA489B1D34A01D0009DA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEA489C1D34A01D0009DA4E /* Build configuration list for PBXNativeTarget "Intrinsic Content Size(固有内容大小)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEA489D1D34A01D0009DA4E /* Debug */,
+				CAEA489E1D34A01D0009DA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAEA489F1D34A01D0009DA4E /* Build configuration list for PBXNativeTarget "Intrinsic Content Size(固有内容大小)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEA48A01D34A01D0009DA4E /* Debug */,
+				CAEA48A11D34A01D0009DA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAEA48A21D34A01D0009DA4E /* Build configuration list for PBXNativeTarget "Intrinsic Content Size(固有内容大小)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEA48A31D34A01D0009DA4E /* Debug */,
+				CAEA48A41D34A01D0009DA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAEA48671D34A01C0009DA4E /* Project object */;
+}

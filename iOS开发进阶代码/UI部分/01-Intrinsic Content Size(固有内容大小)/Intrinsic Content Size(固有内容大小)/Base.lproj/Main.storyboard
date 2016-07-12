@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="128" translatesAutoresizingMaskIntoConstraints="NO" id="cn9-JP-JnP">
+                                <rect key="frame" x="20" y="40" width="560" height="228"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4X0-Rv-A9T">
+                                        <rect key="frame" x="8" y="8" width="544" height="183"/>
+                                        <color key="backgroundColor" red="0.083406627089691265" green="0.42519831296766819" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <mutableString key="text">《古文观止》是历代中国散文总集。清代吴楚材、吴调侯编选，吴兴祚审定。清朝康熙年间选编的一部供学塾使用的文学读本。“观止”一词表示“文集所收录的文章代表文言文的最高水平”。二吴均是浙江绍兴人，长期设馆授徒，此书是为学生编的教材。除本书外，二吴还细著了《纲鉴易知录》。《古文观止》由清代吴兴祚审定并作序，序言中称“以此正蒙养而裨后学”，当时为读书人的启蒙读物。康熙三十四年（1695年）正式镌版印刷。书名“古文观止”意指文集所收录的文章代表文言文的最高水平，学习文言文至此观止矣。本书亦有入选不当者，因为选编主要是着眼于考科举时做策论，但作为一种古代汉民族散文的入门书，仍有其存在价值。</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.96695536464317766" blue="0.97407369577983105" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GT9-hN-I1J">
+                                        <rect key="frame" x="8" y="199" width="544" height="21"/>
+                                        <color key="backgroundColor" red="0.03779924683686986" green="1" blue="0.021832536125615642" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">中华人民共和国成立以后，特别是近十多年来，《古文观止》的许多译注本，都是用中华书局本为底本。中华书局本实有两种：一是1959年本。这是由原古籍刊行社转来的本子，此本“据映雪堂本断句，并校正了个别显著的错字”。二是1987年本，即安平秋点校本。此本虽以1959年本为底本，但用映雪堂原刻本复核过，用文富堂本、怀泾堂本、鸿文堂本参校过，还用相关史书、总集、别集所收古文校勘过，而且补录了二吴之《序》和乘权所撰《例言》。因而后者是所能见到的最好的版本</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99336939099999999" green="0.093778883480000005" blue="0.12989960210000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="4X0-Rv-A9T" firstAttribute="top" secondItem="cn9-JP-JnP" secondAttribute="top" constant="8" id="G4y-Vh-KfV"/>
+                                    <constraint firstItem="GT9-hN-I1J" firstAttribute="leading" secondItem="cn9-JP-JnP" secondAttribute="leading" constant="8" id="KQH-I1-YNJ"/>
+                                    <constraint firstItem="GT9-hN-I1J" firstAttribute="top" secondItem="4X0-Rv-A9T" secondAttribute="bottom" constant="8" id="SBo-dB-tCQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="4X0-Rv-A9T" secondAttribute="trailing" constant="8" id="T2K-X0-Oeg"/>
+                                    <constraint firstAttribute="trailing" secondItem="GT9-hN-I1J" secondAttribute="trailing" constant="8" id="dHv-ed-HVT"/>
+                                    <constraint firstAttribute="bottom" secondItem="GT9-hN-I1J" secondAttribute="bottom" constant="8" id="gpx-KB-Pn4"/>
+                                    <constraint firstItem="4X0-Rv-A9T" firstAttribute="leading" secondItem="cn9-JP-JnP" secondAttribute="leading" constant="8" id="hI8-0l-ztx"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cn9-JP-JnP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="ZUO-3X-1sg"/>
+                            <constraint firstItem="cn9-JP-JnP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="dGT-Ia-HGw"/>
+                            <constraint firstAttribute="trailing" secondItem="cn9-JP-JnP" secondAttribute="trailing" constant="20" id="l6R-Et-khF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
