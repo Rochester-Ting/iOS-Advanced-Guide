@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAEA493A1D34DC2B0009DA4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA49391D34DC2B0009DA4E /* main.m */; };
+		CAEA493D1D34DC2B0009DA4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA493C1D34DC2B0009DA4E /* AppDelegate.m */; };
+		CAEA49401D34DC2B0009DA4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA493F1D34DC2B0009DA4E /* ViewController.m */; };
+		CAEA49431D34DC2B0009DA4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEA49411D34DC2B0009DA4E /* Main.storyboard */; };
+		CAEA49451D34DC2B0009DA4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEA49441D34DC2B0009DA4E /* Assets.xcassets */; };
+		CAEA49481D34DC2B0009DA4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEA49461D34DC2B0009DA4E /* LaunchScreen.storyboard */; };
+		CAEA49531D34DC2B0009DA4E /* _3__Cell_________ButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA49521D34DC2B0009DA4E /* _3__Cell_________ButtonTests.m */; };
+		CAEA495E1D34DC2B0009DA4E /* _3__Cell_________ButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA495D1D34DC2B0009DA4E /* _3__Cell_________ButtonUITests.m */; };
+		CAEA496E1D34DCDE0009DA4E /* RRCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA496C1D34DCDE0009DA4E /* RRCell.m */; };
+		CAEA496F1D34DCDE0009DA4E /* RRCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAEA496D1D34DCDE0009DA4E /* RRCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAEA494F1D34DC2B0009DA4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEA492D1D34DC2B0009DA4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEA49341D34DC2B0009DA4E;
+			remoteInfo = "03-在Cell中有不定数量个带图Button";
+		};
+		CAEA495A1D34DC2B0009DA4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEA492D1D34DC2B0009DA4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEA49341D34DC2B0009DA4E;
+			remoteInfo = "03-在Cell中有不定数量个带图Button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAEA49351D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-在Cell中有不定数量个带图Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEA49391D34DC2B0009DA4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAEA493B1D34DC2B0009DA4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAEA493C1D34DC2B0009DA4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAEA493E1D34DC2B0009DA4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAEA493F1D34DC2B0009DA4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAEA49421D34DC2B0009DA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAEA49441D34DC2B0009DA4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAEA49471D34DC2B0009DA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAEA49491D34DC2B0009DA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEA494E1D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图ButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-在Cell中有不定数量个带图ButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEA49521D34DC2B0009DA4E /* _3__Cell_________ButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3__Cell_________ButtonTests.m"; sourceTree = "<group>"; };
+		CAEA49541D34DC2B0009DA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEA49591D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图ButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-在Cell中有不定数量个带图ButtonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEA495D1D34DC2B0009DA4E /* _3__Cell_________ButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3__Cell_________ButtonUITests.m"; sourceTree = "<group>"; };
+		CAEA495F1D34DC2B0009DA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEA496B1D34DCDE0009DA4E /* RRCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRCell.h; sourceTree = "<group>"; };
+		CAEA496C1D34DCDE0009DA4E /* RRCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRCell.m; sourceTree = "<group>"; };
+		CAEA496D1D34DCDE0009DA4E /* RRCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RRCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAEA49321D34DC2B0009DA4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA494B1D34DC2B0009DA4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA49561D34DC2B0009DA4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAEA492C1D34DC2B0009DA4E = {
+			isa = PBXGroup;
+			children = (
+				CAEA49371D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图Button */,
+				CAEA49511D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图ButtonTests */,
+				CAEA495C1D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图ButtonUITests */,
+				CAEA49361D34DC2B0009DA4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAEA49361D34DC2B0009DA4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA49351D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图Button.app */,
+				CAEA494E1D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图ButtonTests.xctest */,
+				CAEA49591D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图ButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAEA49371D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图Button */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA493B1D34DC2B0009DA4E /* AppDelegate.h */,
+				CAEA493C1D34DC2B0009DA4E /* AppDelegate.m */,
+				CAEA493E1D34DC2B0009DA4E /* ViewController.h */,
+				CAEA493F1D34DC2B0009DA4E /* ViewController.m */,
+				CAEA49411D34DC2B0009DA4E /* Main.storyboard */,
+				CAEA49441D34DC2B0009DA4E /* Assets.xcassets */,
+				CAEA49461D34DC2B0009DA4E /* LaunchScreen.storyboard */,
+				CAEA49491D34DC2B0009DA4E /* Info.plist */,
+				CAEA49381D34DC2B0009DA4E /* Supporting Files */,
+				CAEA496B1D34DCDE0009DA4E /* RRCell.h */,
+				CAEA496C1D34DCDE0009DA4E /* RRCell.m */,
+				CAEA496D1D34DCDE0009DA4E /* RRCell.xib */,
+			);
+			path = "03-在Cell中有不定数量个带图Button";
+			sourceTree = "<group>";
+		};
+		CAEA49381D34DC2B0009DA4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA49391D34DC2B0009DA4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAEA49511D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图ButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA49521D34DC2B0009DA4E /* _3__Cell_________ButtonTests.m */,
+				CAEA49541D34DC2B0009DA4E /* Info.plist */,
+			);
+			path = "03-在Cell中有不定数量个带图ButtonTests";
+			sourceTree = "<group>";
+		};
+		CAEA495C1D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图ButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA495D1D34DC2B0009DA4E /* _3__Cell_________ButtonUITests.m */,
+				CAEA495F1D34DC2B0009DA4E /* Info.plist */,
+			);
+			path = "03-在Cell中有不定数量个带图ButtonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAEA49341D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图Button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEA49621D34DC2B0009DA4E /* Build configuration list for PBXNativeTarget "03-在Cell中有不定数量个带图Button" */;
+			buildPhases = (
+				CAEA49311D34DC2B0009DA4E /* Sources */,
+				CAEA49321D34DC2B0009DA4E /* Frameworks */,
+				CAEA49331D34DC2B0009DA4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-在Cell中有不定数量个带图Button";
+			productName = "03-在Cell中有不定数量个带图Button";
+			productReference = CAEA49351D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图Button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAEA494D1D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图ButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEA49651D34DC2B0009DA4E /* Build configuration list for PBXNativeTarget "03-在Cell中有不定数量个带图ButtonTests" */;
+			buildPhases = (
+				CAEA494A1D34DC2B0009DA4E /* Sources */,
+				CAEA494B1D34DC2B0009DA4E /* Frameworks */,
+				CAEA494C1D34DC2B0009DA4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEA49501D34DC2B0009DA4E /* PBXTargetDependency */,
+			);
+			name = "03-在Cell中有不定数量个带图ButtonTests";
+			productName = "03-在Cell中有不定数量个带图ButtonTests";
+			productReference = CAEA494E1D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图ButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAEA49581D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图ButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEA49681D34DC2B0009DA4E /* Build configuration list for PBXNativeTarget "03-在Cell中有不定数量个带图ButtonUITests" */;
+			buildPhases = (
+				CAEA49551D34DC2B0009DA4E /* Sources */,
+				CAEA49561D34DC2B0009DA4E /* Frameworks */,
+				CAEA49571D34DC2B0009DA4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEA495B1D34DC2B0009DA4E /* PBXTargetDependency */,
+			);
+			name = "03-在Cell中有不定数量个带图ButtonUITests";
+			productName = "03-在Cell中有不定数量个带图ButtonUITests";
+			productReference = CAEA49591D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图ButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAEA492D1D34DC2B0009DA4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rochester;
+				TargetAttributes = {
+					CAEA49341D34DC2B0009DA4E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CAEA494D1D34DC2B0009DA4E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CAEA49341D34DC2B0009DA4E;
+					};
+					CAEA49581D34DC2B0009DA4E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CAEA49341D34DC2B0009DA4E;
+					};
+				};
+			};
+			buildConfigurationList = CAEA49301D34DC2B0009DA4E /* Build configuration list for PBXProject "03-在Cell中有不定数量个带图Button" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAEA492C1D34DC2B0009DA4E;
+			productRefGroup = CAEA49361D34DC2B0009DA4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAEA49341D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图Button */,
+				CAEA494D1D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图ButtonTests */,
+				CAEA49581D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图ButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAEA49331D34DC2B0009DA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEA49481D34DC2B0009DA4E /* LaunchScreen.storyboard in Resources */,
+				CAEA49451D34DC2B0009DA4E /* Assets.xcassets in Resources */,
+				CAEA49431D34DC2B0009DA4E /* Main.storyboard in Resources */,
+				CAEA496F1D34DCDE0009DA4E /* RRCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA494C1D34DC2B0009DA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA49571D34DC2B0009DA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAEA49311D34DC2B0009DA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEA49401D34DC2B0009DA4E /* ViewController.m in Sources */,
+				CAEA493D1D34DC2B0009DA4E /* AppDelegate.m in Sources */,
+				CAEA493A1D34DC2B0009DA4E /* main.m in Sources */,
+				CAEA496E1D34DCDE0009DA4E /* RRCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA494A1D34DC2B0009DA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEA49531D34DC2B0009DA4E /* _3__Cell_________ButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA49551D34DC2B0009DA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEA495E1D34DC2B0009DA4E /* _3__Cell_________ButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAEA49501D34DC2B0009DA4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEA49341D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图Button */;
+			targetProxy = CAEA494F1D34DC2B0009DA4E /* PBXContainerItemProxy */;
+		};
+		CAEA495B1D34DC2B0009DA4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEA49341D34DC2B0009DA4E /* 03-在Cell中有不定数量个带图Button */;
+			targetProxy = CAEA495A1D34DC2B0009DA4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAEA49411D34DC2B0009DA4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEA49421D34DC2B0009DA4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAEA49461D34DC2B0009DA4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEA49471D34DC2B0009DA4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAEA49601D34DC2B0009DA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAEA49611D34DC2B0009DA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAEA49631D34DC2B0009DA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03-在Cell中有不定数量个带图Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-3--Cell---------Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAEA49641D34DC2B0009DA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03-在Cell中有不定数量个带图Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-3--Cell---------Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAEA49661D34DC2B0009DA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "03-在Cell中有不定数量个带图ButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-3--Cell---------ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03-在Cell中有不定数量个带图Button.app/03-在Cell中有不定数量个带图Button";
+			};
+			name = Debug;
+		};
+		CAEA49671D34DC2B0009DA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "03-在Cell中有不定数量个带图ButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-3--Cell---------ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03-在Cell中有不定数量个带图Button.app/03-在Cell中有不定数量个带图Button";
+			};
+			name = Release;
+		};
+		CAEA49691D34DC2B0009DA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "03-在Cell中有不定数量个带图ButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-3--Cell---------ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "03-在Cell中有不定数量个带图Button";
+			};
+			name = Debug;
+		};
+		CAEA496A1D34DC2B0009DA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "03-在Cell中有不定数量个带图ButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-3--Cell---------ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "03-在Cell中有不定数量个带图Button";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAEA49301D34DC2B0009DA4E /* Build configuration list for PBXProject "03-在Cell中有不定数量个带图Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEA49601D34DC2B0009DA4E /* Debug */,
+				CAEA49611D34DC2B0009DA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEA49621D34DC2B0009DA4E /* Build configuration list for PBXNativeTarget "03-在Cell中有不定数量个带图Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEA49631D34DC2B0009DA4E /* Debug */,
+				CAEA49641D34DC2B0009DA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAEA49651D34DC2B0009DA4E /* Build configuration list for PBXNativeTarget "03-在Cell中有不定数量个带图ButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEA49661D34DC2B0009DA4E /* Debug */,
+				CAEA49671D34DC2B0009DA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAEA49681D34DC2B0009DA4E /* Build configuration list for PBXNativeTarget "03-在Cell中有不定数量个带图ButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEA49691D34DC2B0009DA4E /* Debug */,
+				CAEA496A1D34DC2B0009DA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAEA492D1D34DC2B0009DA4E /* Project object */;
+}
