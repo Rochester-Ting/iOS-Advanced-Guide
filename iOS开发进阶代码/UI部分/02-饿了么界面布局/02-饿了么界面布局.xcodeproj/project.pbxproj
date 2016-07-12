@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAEA48B31D34A9140009DA4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA48B21D34A9140009DA4E /* main.m */; };
+		CAEA48B61D34A9140009DA4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA48B51D34A9140009DA4E /* AppDelegate.m */; };
+		CAEA48B91D34A9140009DA4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA48B81D34A9140009DA4E /* ViewController.m */; };
+		CAEA48BC1D34A9140009DA4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEA48BA1D34A9140009DA4E /* Main.storyboard */; };
+		CAEA48BE1D34A9140009DA4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEA48BD1D34A9140009DA4E /* Assets.xcassets */; };
+		CAEA48C11D34A9140009DA4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEA48BF1D34A9140009DA4E /* LaunchScreen.storyboard */; };
+		CAEA48CC1D34A9140009DA4E /* _2________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA48CB1D34A9140009DA4E /* _2________Tests.m */; };
+		CAEA48D71D34A9140009DA4E /* _2________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA48D61D34A9140009DA4E /* _2________UITests.m */; };
+		CAEA48E61D34AAC90009DA4E /* LeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA48E51D34AAC90009DA4E /* LeftTableViewController.m */; };
+		CAEA48E91D34AAD50009DA4E /* RightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA48E81D34AAD50009DA4E /* RightTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAEA48C81D34A9140009DA4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEA48A61D34A9140009DA4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEA48AD1D34A9140009DA4E;
+			remoteInfo = "02-饿了么界面布局";
+		};
+		CAEA48D31D34A9140009DA4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEA48A61D34A9140009DA4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEA48AD1D34A9140009DA4E;
+			remoteInfo = "02-饿了么界面布局";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAEA48AE1D34A9140009DA4E /* 02-饿了么界面布局.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-饿了么界面布局.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEA48B21D34A9140009DA4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAEA48B41D34A9140009DA4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAEA48B51D34A9140009DA4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAEA48B71D34A9140009DA4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAEA48B81D34A9140009DA4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAEA48BB1D34A9140009DA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAEA48BD1D34A9140009DA4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAEA48C01D34A9140009DA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAEA48C21D34A9140009DA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEA48C71D34A9140009DA4E /* 02-饿了么界面布局Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-饿了么界面布局Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEA48CB1D34A9140009DA4E /* _2________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2________Tests.m"; sourceTree = "<group>"; };
+		CAEA48CD1D34A9140009DA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEA48D21D34A9140009DA4E /* 02-饿了么界面布局UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-饿了么界面布局UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEA48D61D34A9140009DA4E /* _2________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2________UITests.m"; sourceTree = "<group>"; };
+		CAEA48D81D34A9140009DA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEA48E41D34AAC90009DA4E /* LeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewController.h; sourceTree = "<group>"; };
+		CAEA48E51D34AAC90009DA4E /* LeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewController.m; sourceTree = "<group>"; };
+		CAEA48E71D34AAD50009DA4E /* RightTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableViewController.h; sourceTree = "<group>"; };
+		CAEA48E81D34AAD50009DA4E /* RightTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAEA48AB1D34A9140009DA4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA48C41D34A9140009DA4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA48CF1D34A9140009DA4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAEA48A51D34A9140009DA4E = {
+			isa = PBXGroup;
+			children = (
+				CAEA48B01D34A9140009DA4E /* 02-饿了么界面布局 */,
+				CAEA48CA1D34A9140009DA4E /* 02-饿了么界面布局Tests */,
+				CAEA48D51D34A9140009DA4E /* 02-饿了么界面布局UITests */,
+				CAEA48AF1D34A9140009DA4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAEA48AF1D34A9140009DA4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA48AE1D34A9140009DA4E /* 02-饿了么界面布局.app */,
+				CAEA48C71D34A9140009DA4E /* 02-饿了么界面布局Tests.xctest */,
+				CAEA48D21D34A9140009DA4E /* 02-饿了么界面布局UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAEA48B01D34A9140009DA4E /* 02-饿了么界面布局 */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA48B41D34A9140009DA4E /* AppDelegate.h */,
+				CAEA48B51D34A9140009DA4E /* AppDelegate.m */,
+				CAEA48B71D34A9140009DA4E /* ViewController.h */,
+				CAEA48B81D34A9140009DA4E /* ViewController.m */,
+				CAEA48BA1D34A9140009DA4E /* Main.storyboard */,
+				CAEA48BD1D34A9140009DA4E /* Assets.xcassets */,
+				CAEA48BF1D34A9140009DA4E /* LaunchScreen.storyboard */,
+				CAEA48C21D34A9140009DA4E /* Info.plist */,
+				CAEA48B11D34A9140009DA4E /* Supporting Files */,
+				CAEA48E41D34AAC90009DA4E /* LeftTableViewController.h */,
+				CAEA48E51D34AAC90009DA4E /* LeftTableViewController.m */,
+				CAEA48E71D34AAD50009DA4E /* RightTableViewController.h */,
+				CAEA48E81D34AAD50009DA4E /* RightTableViewController.m */,
+			);
+			path = "02-饿了么界面布局";
+			sourceTree = "<group>";
+		};
+		CAEA48B11D34A9140009DA4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA48B21D34A9140009DA4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAEA48CA1D34A9140009DA4E /* 02-饿了么界面布局Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA48CB1D34A9140009DA4E /* _2________Tests.m */,
+				CAEA48CD1D34A9140009DA4E /* Info.plist */,
+			);
+			path = "02-饿了么界面布局Tests";
+			sourceTree = "<group>";
+		};
+		CAEA48D51D34A9140009DA4E /* 02-饿了么界面布局UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA48D61D34A9140009DA4E /* _2________UITests.m */,
+				CAEA48D81D34A9140009DA4E /* Info.plist */,
+			);
+			path = "02-饿了么界面布局UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAEA48AD1D34A9140009DA4E /* 02-饿了么界面布局 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEA48DB1D34A9140009DA4E /* Build configuration list for PBXNativeTarget "02-饿了么界面布局" */;
+			buildPhases = (
+				CAEA48AA1D34A9140009DA4E /* Sources */,
+				CAEA48AB1D34A9140009DA4E /* Frameworks */,
+				CAEA48AC1D34A9140009DA4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-饿了么界面布局";
+			productName = "02-饿了么界面布局";
+			productReference = CAEA48AE1D34A9140009DA4E /* 02-饿了么界面布局.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAEA48C61D34A9140009DA4E /* 02-饿了么界面布局Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEA48DE1D34A9140009DA4E /* Build configuration list for PBXNativeTarget "02-饿了么界面布局Tests" */;
+			buildPhases = (
+				CAEA48C31D34A9140009DA4E /* Sources */,
+				CAEA48C41D34A9140009DA4E /* Frameworks */,
+				CAEA48C51D34A9140009DA4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEA48C91D34A9140009DA4E /* PBXTargetDependency */,
+			);
+			name = "02-饿了么界面布局Tests";
+			productName = "02-饿了么界面布局Tests";
+			productReference = CAEA48C71D34A9140009DA4E /* 02-饿了么界面布局Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAEA48D11D34A9140009DA4E /* 02-饿了么界面布局UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEA48E11D34A9140009DA4E /* Build configuration list for PBXNativeTarget "02-饿了么界面布局UITests" */;
+			buildPhases = (
+				CAEA48CE1D34A9140009DA4E /* Sources */,
+				CAEA48CF1D34A9140009DA4E /* Frameworks */,
+				CAEA48D01D34A9140009DA4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEA48D41D34A9140009DA4E /* PBXTargetDependency */,
+			);
+			name = "02-饿了么界面布局UITests";
+			productName = "02-饿了么界面布局UITests";
+			productReference = CAEA48D21D34A9140009DA4E /* 02-饿了么界面布局UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAEA48A61D34A9140009DA4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rochester;
+				TargetAttributes = {
+					CAEA48AD1D34A9140009DA4E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CAEA48C61D34A9140009DA4E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CAEA48AD1D34A9140009DA4E;
+					};
+					CAEA48D11D34A9140009DA4E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CAEA48AD1D34A9140009DA4E;
+					};
+				};
+			};
+			buildConfigurationList = CAEA48A91D34A9140009DA4E /* Build configuration list for PBXProject "02-饿了么界面布局" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAEA48A51D34A9140009DA4E;
+			productRefGroup = CAEA48AF1D34A9140009DA4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAEA48AD1D34A9140009DA4E /* 02-饿了么界面布局 */,
+				CAEA48C61D34A9140009DA4E /* 02-饿了么界面布局Tests */,
+				CAEA48D11D34A9140009DA4E /* 02-饿了么界面布局UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAEA48AC1D34A9140009DA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEA48C11D34A9140009DA4E /* LaunchScreen.storyboard in Resources */,
+				CAEA48BE1D34A9140009DA4E /* Assets.xcassets in Resources */,
+				CAEA48BC1D34A9140009DA4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA48C51D34A9140009DA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA48D01D34A9140009DA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAEA48AA1D34A9140009DA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEA48B91D34A9140009DA4E /* ViewController.m in Sources */,
+				CAEA48B61D34A9140009DA4E /* AppDelegate.m in Sources */,
+				CAEA48E61D34AAC90009DA4E /* LeftTableViewController.m in Sources */,
+				CAEA48B31D34A9140009DA4E /* main.m in Sources */,
+				CAEA48E91D34AAD50009DA4E /* RightTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA48C31D34A9140009DA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEA48CC1D34A9140009DA4E /* _2________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEA48CE1D34A9140009DA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEA48D71D34A9140009DA4E /* _2________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAEA48C91D34A9140009DA4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEA48AD1D34A9140009DA4E /* 02-饿了么界面布局 */;
+			targetProxy = CAEA48C81D34A9140009DA4E /* PBXContainerItemProxy */;
+		};
+		CAEA48D41D34A9140009DA4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEA48AD1D34A9140009DA4E /* 02-饿了么界面布局 */;
+			targetProxy = CAEA48D31D34A9140009DA4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAEA48BA1D34A9140009DA4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEA48BB1D34A9140009DA4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAEA48BF1D34A9140009DA4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEA48C01D34A9140009DA4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAEA48D91D34A9140009DA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAEA48DA1D34A9140009DA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAEA48DC1D34A9140009DA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-饿了么界面布局/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-2--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAEA48DD1D34A9140009DA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-饿了么界面布局/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-2--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAEA48DF1D34A9140009DA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02-饿了么界面布局Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-2--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-饿了么界面布局.app/02-饿了么界面布局";
+			};
+			name = Debug;
+		};
+		CAEA48E01D34A9140009DA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02-饿了么界面布局Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-2--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-饿了么界面布局.app/02-饿了么界面布局";
+			};
+			name = Release;
+		};
+		CAEA48E21D34A9140009DA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02-饿了么界面布局UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-2--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02-饿了么界面布局";
+			};
+			name = Debug;
+		};
+		CAEA48E31D34A9140009DA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02-饿了么界面布局UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-2--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02-饿了么界面布局";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAEA48A91D34A9140009DA4E /* Build configuration list for PBXProject "02-饿了么界面布局" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEA48D91D34A9140009DA4E /* Debug */,
+				CAEA48DA1D34A9140009DA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEA48DB1D34A9140009DA4E /* Build configuration list for PBXNativeTarget "02-饿了么界面布局" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEA48DC1D34A9140009DA4E /* Debug */,
+				CAEA48DD1D34A9140009DA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAEA48DE1D34A9140009DA4E /* Build configuration list for PBXNativeTarget "02-饿了么界面布局Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEA48DF1D34A9140009DA4E /* Debug */,
+				CAEA48E01D34A9140009DA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAEA48E11D34A9140009DA4E /* Build configuration list for PBXNativeTarget "02-饿了么界面布局UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEA48E21D34A9140009DA4E /* Debug */,
+				CAEA48E31D34A9140009DA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAEA48A61D34A9140009DA4E /* Project object */;
+}
