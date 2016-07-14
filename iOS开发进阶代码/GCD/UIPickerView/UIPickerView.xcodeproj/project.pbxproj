@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAF33BB61D371F04004464D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF33BB51D371F04004464D5 /* main.m */; };
+		CAF33BB91D371F04004464D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF33BB81D371F04004464D5 /* AppDelegate.m */; };
+		CAF33BBC1D371F04004464D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF33BBB1D371F04004464D5 /* ViewController.m */; };
+		CAF33BBF1D371F04004464D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF33BBD1D371F04004464D5 /* Main.storyboard */; };
+		CAF33BC11D371F04004464D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF33BC01D371F04004464D5 /* Assets.xcassets */; };
+		CAF33BC41D371F04004464D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF33BC21D371F04004464D5 /* LaunchScreen.storyboard */; };
+		CAF33BCF1D371F05004464D5 /* UIPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF33BCE1D371F05004464D5 /* UIPickerViewTests.m */; };
+		CAF33BDA1D371F05004464D5 /* UIPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF33BD91D371F05004464D5 /* UIPickerViewUITests.m */; };
+		CAF33C0C1D37255C004464D5 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF33C001D37255C004464D5 /* AFHTTPSessionManager.m */; };
+		CAF33C0D1D37255C004464D5 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF33C031D37255C004464D5 /* AFNetworkReachabilityManager.m */; };
+		CAF33C0E1D37255C004464D5 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF33C051D37255C004464D5 /* AFSecurityPolicy.m */; };
+		CAF33C0F1D37255C004464D5 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF33C071D37255C004464D5 /* AFURLRequestSerialization.m */; };
+		CAF33C101D37255C004464D5 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF33C091D37255C004464D5 /* AFURLResponseSerialization.m */; };
+		CAF33C111D37255C004464D5 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF33C0B1D37255C004464D5 /* AFURLSessionManager.m */; };
+		CAF33C131D373370004464D5 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF33C121D373370004464D5 /* Foundation+Log.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF33BCB1D371F05004464D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF33BA91D371F04004464D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF33BB01D371F04004464D5;
+			remoteInfo = UIPickerView;
+		};
+		CAF33BD61D371F05004464D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF33BA91D371F04004464D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF33BB01D371F04004464D5;
+			remoteInfo = UIPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAF33BB11D371F04004464D5 /* UIPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF33BB51D371F04004464D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAF33BB71D371F04004464D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAF33BB81D371F04004464D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAF33BBA1D371F04004464D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAF33BBB1D371F04004464D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAF33BBE1D371F04004464D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAF33BC01D371F04004464D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAF33BC31D371F04004464D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAF33BC51D371F04004464D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF33BCA1D371F05004464D5 /* UIPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF33BCE1D371F05004464D5 /* UIPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPickerViewTests.m; sourceTree = "<group>"; };
+		CAF33BD01D371F05004464D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF33BD51D371F05004464D5 /* UIPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF33BD91D371F05004464D5 /* UIPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPickerViewUITests.m; sourceTree = "<group>"; };
+		CAF33BDB1D371F05004464D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF33BFF1D37255C004464D5 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CAF33C001D37255C004464D5 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CAF33C011D37255C004464D5 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CAF33C021D37255C004464D5 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CAF33C031D37255C004464D5 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CAF33C041D37255C004464D5 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CAF33C051D37255C004464D5 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CAF33C061D37255C004464D5 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CAF33C071D37255C004464D5 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CAF33C081D37255C004464D5 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CAF33C091D37255C004464D5 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CAF33C0A1D37255C004464D5 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		CAF33C0B1D37255C004464D5 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		CAF33C121D373370004464D5 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF33BAE1D371F04004464D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF33BC71D371F05004464D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF33BD21D371F05004464D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAF33BA81D371F04004464D5 = {
+			isa = PBXGroup;
+			children = (
+				CAF33BB31D371F04004464D5 /* UIPickerView */,
+				CAF33BCD1D371F05004464D5 /* UIPickerViewTests */,
+				CAF33BD81D371F05004464D5 /* UIPickerViewUITests */,
+				CAF33BB21D371F04004464D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF33BB21D371F04004464D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF33BB11D371F04004464D5 /* UIPickerView.app */,
+				CAF33BCA1D371F05004464D5 /* UIPickerViewTests.xctest */,
+				CAF33BD51D371F05004464D5 /* UIPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF33BB31D371F04004464D5 /* UIPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				CAF33BB71D371F04004464D5 /* AppDelegate.h */,
+				CAF33BB81D371F04004464D5 /* AppDelegate.m */,
+				CAF33BBA1D371F04004464D5 /* ViewController.h */,
+				CAF33BBB1D371F04004464D5 /* ViewController.m */,
+				CAF33BBD1D371F04004464D5 /* Main.storyboard */,
+				CAF33BC01D371F04004464D5 /* Assets.xcassets */,
+				CAF33BC21D371F04004464D5 /* LaunchScreen.storyboard */,
+				CAF33BC51D371F04004464D5 /* Info.plist */,
+				CAF33BB41D371F04004464D5 /* Supporting Files */,
+				CAF33C121D373370004464D5 /* Foundation+Log.m */,
+				CAF33BFE1D37255C004464D5 /* AFNetworking */,
+			);
+			path = UIPickerView;
+			sourceTree = "<group>";
+		};
+		CAF33BB41D371F04004464D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAF33BB51D371F04004464D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAF33BCD1D371F05004464D5 /* UIPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF33BCE1D371F05004464D5 /* UIPickerViewTests.m */,
+				CAF33BD01D371F05004464D5 /* Info.plist */,
+			);
+			path = UIPickerViewTests;
+			sourceTree = "<group>";
+		};
+		CAF33BD81D371F05004464D5 /* UIPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF33BD91D371F05004464D5 /* UIPickerViewUITests.m */,
+				CAF33BDB1D371F05004464D5 /* Info.plist */,
+			);
+			path = UIPickerViewUITests;
+			sourceTree = "<group>";
+		};
+		CAF33BFE1D37255C004464D5 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CAF33BFF1D37255C004464D5 /* AFHTTPSessionManager.h */,
+				CAF33C001D37255C004464D5 /* AFHTTPSessionManager.m */,
+				CAF33C011D37255C004464D5 /* AFNetworking.h */,
+				CAF33C021D37255C004464D5 /* AFNetworkReachabilityManager.h */,
+				CAF33C031D37255C004464D5 /* AFNetworkReachabilityManager.m */,
+				CAF33C041D37255C004464D5 /* AFSecurityPolicy.h */,
+				CAF33C051D37255C004464D5 /* AFSecurityPolicy.m */,
+				CAF33C061D37255C004464D5 /* AFURLRequestSerialization.h */,
+				CAF33C071D37255C004464D5 /* AFURLRequestSerialization.m */,
+				CAF33C081D37255C004464D5 /* AFURLResponseSerialization.h */,
+				CAF33C091D37255C004464D5 /* AFURLResponseSerialization.m */,
+				CAF33C0A1D37255C004464D5 /* AFURLSessionManager.h */,
+				CAF33C0B1D37255C004464D5 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF33BB01D371F04004464D5 /* UIPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF33BDE1D371F05004464D5 /* Build configuration list for PBXNativeTarget "UIPickerView" */;
+			buildPhases = (
+				CAF33BAD1D371F04004464D5 /* Sources */,
+				CAF33BAE1D371F04004464D5 /* Frameworks */,
+				CAF33BAF1D371F04004464D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIPickerView;
+			productName = UIPickerView;
+			productReference = CAF33BB11D371F04004464D5 /* UIPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF33BC91D371F05004464D5 /* UIPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF33BE11D371F05004464D5 /* Build configuration list for PBXNativeTarget "UIPickerViewTests" */;
+			buildPhases = (
+				CAF33BC61D371F05004464D5 /* Sources */,
+				CAF33BC71D371F05004464D5 /* Frameworks */,
+				CAF33BC81D371F05004464D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF33BCC1D371F05004464D5 /* PBXTargetDependency */,
+			);
+			name = UIPickerViewTests;
+			productName = UIPickerViewTests;
+			productReference = CAF33BCA1D371F05004464D5 /* UIPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAF33BD41D371F05004464D5 /* UIPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF33BE41D371F05004464D5 /* Build configuration list for PBXNativeTarget "UIPickerViewUITests" */;
+			buildPhases = (
+				CAF33BD11D371F05004464D5 /* Sources */,
+				CAF33BD21D371F05004464D5 /* Frameworks */,
+				CAF33BD31D371F05004464D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF33BD71D371F05004464D5 /* PBXTargetDependency */,
+			);
+			name = UIPickerViewUITests;
+			productName = UIPickerViewUITests;
+			productReference = CAF33BD51D371F05004464D5 /* UIPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF33BA91D371F04004464D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rochester;
+				TargetAttributes = {
+					CAF33BB01D371F04004464D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CAF33BC91D371F05004464D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CAF33BB01D371F04004464D5;
+					};
+					CAF33BD41D371F05004464D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CAF33BB01D371F04004464D5;
+					};
+				};
+			};
+			buildConfigurationList = CAF33BAC1D371F04004464D5 /* Build configuration list for PBXProject "UIPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF33BA81D371F04004464D5;
+			productRefGroup = CAF33BB21D371F04004464D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF33BB01D371F04004464D5 /* UIPickerView */,
+				CAF33BC91D371F05004464D5 /* UIPickerViewTests */,
+				CAF33BD41D371F05004464D5 /* UIPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF33BAF1D371F04004464D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF33BC41D371F04004464D5 /* LaunchScreen.storyboard in Resources */,
+				CAF33BC11D371F04004464D5 /* Assets.xcassets in Resources */,
+				CAF33BBF1D371F04004464D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF33BC81D371F05004464D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF33BD31D371F05004464D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF33BAD1D371F04004464D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF33C0E1D37255C004464D5 /* AFSecurityPolicy.m in Sources */,
+				CAF33C101D37255C004464D5 /* AFURLResponseSerialization.m in Sources */,
+				CAF33BBC1D371F04004464D5 /* ViewController.m in Sources */,
+				CAF33C0C1D37255C004464D5 /* AFHTTPSessionManager.m in Sources */,
+				CAF33C131D373370004464D5 /* Foundation+Log.m in Sources */,
+				CAF33C111D37255C004464D5 /* AFURLSessionManager.m in Sources */,
+				CAF33BB91D371F04004464D5 /* AppDelegate.m in Sources */,
+				CAF33C0D1D37255C004464D5 /* AFNetworkReachabilityManager.m in Sources */,
+				CAF33BB61D371F04004464D5 /* main.m in Sources */,
+				CAF33C0F1D37255C004464D5 /* AFURLRequestSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF33BC61D371F05004464D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF33BCF1D371F05004464D5 /* UIPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF33BD11D371F05004464D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF33BDA1D371F05004464D5 /* UIPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF33BCC1D371F05004464D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF33BB01D371F04004464D5 /* UIPickerView */;
+			targetProxy = CAF33BCB1D371F05004464D5 /* PBXContainerItemProxy */;
+		};
+		CAF33BD71D371F05004464D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF33BB01D371F04004464D5 /* UIPickerView */;
+			targetProxy = CAF33BD61D371F05004464D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAF33BBD1D371F04004464D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF33BBE1D371F04004464D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAF33BC21D371F04004464D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF33BC31D371F04004464D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAF33BDC1D371F05004464D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAF33BDD1D371F05004464D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF33BDF1D371F05004464D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.UIPickerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAF33BE01D371F05004464D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.UIPickerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAF33BE21D371F05004464D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.UIPickerViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIPickerView.app/UIPickerView";
+			};
+			name = Debug;
+		};
+		CAF33BE31D371F05004464D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.UIPickerViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIPickerView.app/UIPickerView";
+			};
+			name = Release;
+		};
+		CAF33BE51D371F05004464D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.UIPickerViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIPickerView;
+			};
+			name = Debug;
+		};
+		CAF33BE61D371F05004464D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.UIPickerViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF33BAC1D371F04004464D5 /* Build configuration list for PBXProject "UIPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF33BDC1D371F05004464D5 /* Debug */,
+				CAF33BDD1D371F05004464D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF33BDE1D371F05004464D5 /* Build configuration list for PBXNativeTarget "UIPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF33BDF1D371F05004464D5 /* Debug */,
+				CAF33BE01D371F05004464D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAF33BE11D371F05004464D5 /* Build configuration list for PBXNativeTarget "UIPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF33BE21D371F05004464D5 /* Debug */,
+				CAF33BE31D371F05004464D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAF33BE41D371F05004464D5 /* Build configuration list for PBXNativeTarget "UIPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF33BE51D371F05004464D5 /* Debug */,
+				CAF33BE61D371F05004464D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF33BA91D371F04004464D5 /* Project object */;
+}
