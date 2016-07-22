@@ -21,8 +21,8 @@
     RightTableViewController *RightVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"RightVC"];
     __weak RightTableViewController *right = RightVC;
     leftVC.callBackBlock = ^(NSString *str){
-        NSLog(@"%@",str);
         [right.tableView reloadData];
+        
     };
 }
 

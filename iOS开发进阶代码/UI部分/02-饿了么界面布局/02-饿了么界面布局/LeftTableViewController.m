@@ -39,11 +39,11 @@ NSString *ID = @"RR";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    更新
+
     NSLog(@"1111");
-    if (self.callBackBlock) {
-        NSLog(@"----");
-        self.callBackBlock(@"sss");
+    NSLog(@"22222");
+    if (_callBackBlock) {
+        _callBackBlock(@"sss");
     }
 }
 
